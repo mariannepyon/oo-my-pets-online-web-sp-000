@@ -57,9 +57,7 @@ class Owner
       cats.collect do |cat|
           cat.mood = "nervous"
         end
-        dogs.clear
-      end
-      cats.clear
+        self.clear
     end
 
     def list_pets
