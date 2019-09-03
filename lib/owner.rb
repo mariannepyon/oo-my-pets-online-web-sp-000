@@ -57,7 +57,7 @@ class Owner
       cats.collect do |cat|
           cat.mood = "nervous"
         end
-      remove_instance_variable(:pets)
+      arr.clear
       end
 
 
