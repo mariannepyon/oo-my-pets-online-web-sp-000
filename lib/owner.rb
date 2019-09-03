@@ -33,7 +33,7 @@ class Owner
 
 
   def cats
-    Cat.all.collect
+    Cat.all{|owner| owner.select}
     print
   end
 
