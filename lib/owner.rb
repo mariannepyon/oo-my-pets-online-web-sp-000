@@ -51,12 +51,15 @@ class Owner
   end
 
   def sell_pets
-    pets.each do |pet, arr|
-    arr.map do |pet|
-      pet.mood = 'nervous'
+      dogs.collect do |dog|
+          dog.mood = "nervous"
+        end
+      cats.collect do |cat|
+          cat.mood = "nervous"
+        end
+      dog.clear
     end
-    arr.clear
-  end
+    cat.clear
       end
 
 
