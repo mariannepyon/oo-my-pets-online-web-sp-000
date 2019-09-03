@@ -33,7 +33,7 @@ class Owner
 
 
   def cats
-    Cat.self.all
+    Cat.all
     print
   end
 
