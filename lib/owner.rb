@@ -44,7 +44,7 @@ class Owner
     end
   end
 
-  def play_with_cats
+  def feed_cats
     @pets.collect do |cat|
           cat.mood = "happy"
     end
