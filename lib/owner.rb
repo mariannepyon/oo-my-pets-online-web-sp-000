@@ -57,8 +57,7 @@ class Owner
       cats.collect do |cat|
           cat.mood = "nervous"
         end
-        self.clear
-    end
+
 
     def list_pets
       num_dogs = @pets[:dogs].size
