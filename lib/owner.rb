@@ -31,7 +31,7 @@ class Owner
 
 
   def cats
-    Cat.all.select{|cat| owner.select}
+    Cat.all.select{|cat| owner}
   end
 
   def walk_dogs
