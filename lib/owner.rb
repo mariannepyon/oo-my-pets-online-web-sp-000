@@ -62,6 +62,7 @@ class Owner
     cat.clear
       end
     end
+  end
 
 
     def list_pets
