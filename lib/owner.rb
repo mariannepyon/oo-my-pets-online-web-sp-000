@@ -61,7 +61,6 @@ class Owner
       end
       cats.clear
     end
-    end
 
     def list_pets
       num_dogs = @pets[:dogs].size
