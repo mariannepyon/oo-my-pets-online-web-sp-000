@@ -55,7 +55,6 @@ class Owner
           dog.mood = "nervous"
     cats.collect do |cat|
           cat.mood = "nervous"
-    pets.clear
   end
 
 
