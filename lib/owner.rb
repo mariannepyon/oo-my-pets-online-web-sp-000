@@ -21,12 +21,19 @@ class Owner
     return "I am a #{@species}."
   end
 
+
+
   def buy_dog(name_of_dog)
     @pets[:dogs] << Dog.new(name_of_dog)
   end
 
   def buy_cat(name)
     @pets[:cats] << Cat.new(name_of_cat)
+  end
+
+  def cats
+    @pets[:cats]
+    return
   end
 
   def walk_dogs
