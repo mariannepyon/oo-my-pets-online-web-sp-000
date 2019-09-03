@@ -33,7 +33,7 @@ class Owner
 
 
   def cats
-    Cat.select{|owner| name_of_cat.all}
+    Cat.all.select{|owner| name_of_cat.select}
   end
 
   def walk_dogs
