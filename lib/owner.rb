@@ -34,7 +34,7 @@ class Owner
 
   def cats
     Cat.all{|owner| owner.select}
-    print
+    return
   end
 
   def walk_dogs
