@@ -31,7 +31,7 @@ class Owner
 
 
   def cats
-    Cat.all.select{|owner| name_of_cat.select}
+    Cat.all.select{|owner| == owner}
   end
 
   def walk_dogs
