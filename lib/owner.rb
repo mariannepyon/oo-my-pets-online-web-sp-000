@@ -34,7 +34,7 @@ class Owner
 
   def cats
 binding.pry
-    return :cats
+    return @pets[:cats]
   end
 
   def walk_dogs
