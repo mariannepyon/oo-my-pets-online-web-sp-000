@@ -59,6 +59,7 @@ class Owner
     end
     pets.collect do |pets|
       pets.clear
+    end
   end
 
 
