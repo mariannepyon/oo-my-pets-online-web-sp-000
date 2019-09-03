@@ -33,8 +33,8 @@ class Owner
 
 
   def cats
-binding.pry
-    return @pets[:cats]
+    Cat.self.all
+    print
   end
 
   def walk_dogs
