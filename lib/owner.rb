@@ -33,7 +33,7 @@ class Owner
 
   def cats
     @pets[:cats]
-    return
+    return cats
   end
 
   def walk_dogs
