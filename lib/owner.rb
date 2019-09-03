@@ -33,7 +33,7 @@ class Owner
 
 
   def cats
-#binding.pry
+binding.pry
     return @pets[:cats]
   end
 
